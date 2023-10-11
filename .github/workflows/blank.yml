@@ -2,7 +2,7 @@
 
   uses: vinetaru/aws-s3-create-bucket@v1.2.0
   with:
-    bucket-name: 'fita_DevOps'
+    bucket-name: 'fita_DevOpst'
     #aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
     aws-access-key-id: 'AKIA53LXRVYJ6HG5GUW5'
     aws-secret-access-key: 'b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACAh1nMGDXNBkwwWjGIlYM2z4OBvAmOduHccdjnaJ8fpDAAAAIjuSAjC7kgIwgAAAAtzc2gtZWQyNTUxOQAAACAh1nMGDXNBkwwWjGIlYM2z4OBvAmOduHccdjnaJ8fpDAAAAEAwUQIBATAFBgMrZXAEIgQgS5sHf9b84YHRCkL6Ht3xvyHWcwYNc0GTDBaMYiVgzbPg4G8CY524dxx2Odonx+kMAAAAAAECAwQF'
