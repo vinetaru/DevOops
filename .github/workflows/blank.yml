@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 - name: Create bucket in S3
-  uses: aitorres/aws-s3-create-bucket@v1.2.0
+  uses: vinetaru/aws-s3-create-bucket@v1.2.0
   with:
     bucket-name: 'fita_DevOps'
     #aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
