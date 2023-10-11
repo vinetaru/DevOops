@@ -1,8 +1,8 @@
 # DevOops
 #Github projekts
 
-##Projekta uzdevumi
-###Infrastrukturas izveidošana
+## Projekta uzdevumi
+### Infrastrukturas izveidošana
 4 p
 
 Nepieciešams serveris:
