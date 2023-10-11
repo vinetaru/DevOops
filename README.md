@@ -1,5 +1,5 @@
 # DevOops
-#Github projekts
+# Github projekts
 
 ## Projekta uzdevumi
 ### Infrastrukturas izveidošana
@@ -7,11 +7,11 @@
 
 Nepieciešams serveris:
 
-T2.large
+> T2.large
 
-Ubuntu OS
+> Ubuntu OS
 
-S3 bucket
+> S3 bucket
 
  Izmantojot Terraform izveidot EC2 infrastruktūru, ar ssh piekļuvēm. Publisko un privāto tīklu.
 
@@ -33,7 +33,7 @@ S3 bucket
 
  Izmantojot row.io aprakstīt infrastruktūru. Bildes izvietot projekta Wiki.
 
-##Docker uzstādīšana
+## Docker uzstādīšana
 2 p
 
  Pieslēgties EC2 serverim.
@@ -43,7 +43,7 @@ S3 bucket
  Papildināt wiki.
  Papildināt repozitoriju.
  Automatizēt uzstādīšanu izmantojot Github Actions. Lai vDocker** varetu tikt uzstādīts uz jebkura cita Jūsu EC2 servera.
-Petclinic uzstādīšana
+## Petclinic uzstādīšana
 6 p
 
  EC2 serveri pārvietojies uz home directory un izveidot Dockerfile.
@@ -68,7 +68,7 @@ ENTRYPOINT ["./mvnw", "jetty:run-war"]
  Piekļūsti abam aplikācijam izmantojot instances publisko IP adresi
  Ievieto ekrānuzņēmumu ar Petclinic un IP wiki zem sadaļas DONE.
  Automatizēt uzstādīšanas procesu ar GitHub actions.
-image kopešana
+## image kopešana
 2 p
 
  Pirms nosūtīšanas uz DockerHub, pārliecinieties, ka image ir pareizi marķēts un darbojas, izmantojot docker run.
@@ -78,11 +78,11 @@ image kopešana
 sudo docker login -u <DockerHubLietotajvards>/
 sudo docker push <DockerHubLietotajvards>/petclinic:5.3.0
  Ievieto ekrānuzņēmumu ar https://hub.docker.com/ wiki DONE lapa.
-image kopēšanā S3
+## image kopēšanā S3
 6 p*
 
  Veikt image kopēšanu S3 bucket.
-Petclinic uzstādīšana izmantojot pipelines
+## Petclinic uzstādīšana izmantojot pipelines
 10 p*
 
  Build Github runer puse. Pie izmaiņas kādā no koda branch.
