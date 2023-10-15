@@ -1,6 +1,6 @@
 # Install Docker on EC2
 name: install docker
-on: fork
+on: workflow_dispatch
 jobs:
   test:
     name: test
