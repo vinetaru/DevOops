@@ -18,10 +18,10 @@ on: workflow_dispatch
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: your-aws-region
+        aws-region: us-west-1
 
-    - name: Create S3 Bucket
+    - name: Grupa2_S3_bucket
       run: |
         aws s3api create-bucket --bucket your-bucket-name --region your-aws-region --create-bucket-configuration LocationConstraint=your-aws-region
       env:
-        AWS_DEFAULT_REGION: your-aws-region
+        AWS_DEFAULT_REGION: us-west-1
